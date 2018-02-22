@@ -1,0 +1,10 @@
+[package]
+name = "fetch-data"
+version = "0.1.0"
+authors = ["Roger Andersen <hexjelly@hexjelly.com>"]
+
+[dependencies]
+reqwest = "*"
+backoff = "*"
+serde_derive = "*"
+serde_json = "*"
