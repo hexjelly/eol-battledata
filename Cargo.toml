@@ -1,10 +1,13 @@
 [package]
-name = "fetch-data"
+name = "eol-battledata"
 version = "0.1.0"
 authors = ["Roger Andersen <hexjelly@hexjelly.com>"]
 
 [dependencies]
 reqwest = "*"
 backoff = "*"
+serde = "*"
 serde_derive = "*"
 serde_json = "*"
+failure = "*"
+rayon = "*"
